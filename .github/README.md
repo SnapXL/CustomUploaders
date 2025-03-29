@@ -1,17 +1,17 @@
 ## Custom uploaders
 
-[ShareX](https://github.com/ShareX/ShareX) has custom uploader support and you can easily import/export these.
+[SnapX](https://github.com/BrycensRanch/SnapX)/[ShareX](https://github.com/ShareX/ShareX) have custom uploader support, and you can easily import/export these premade configurations.
 
 ## Help
 
-If you need help while making custom uploader you can check here:
+If you need help while making a custom uploader, you can check here:
 
 https://getsharex.com/docs/custom-uploader
 
-The easiest way to learn is checking other example custom uploaders to see how those work.
+The easiest way to learn is by checking other example custom uploaders to see how they work.
 
 ## Contribution rules
 
-Before submitting a pull request, please check [contributing](https://github.com/ShareX/CustomUploaders/blob/master/.github/CONTRIBUTING.md) page.
+Before submitting a pull request, please check the [contributing](https://github.com/BrycensRanch/CustomUploaders-SnapX/blob/master/.github/CONTRIBUTING.md) page.
 
-If your pull request is not following these contribution rules correctly then the pull request will not be accepted.
+If your pull request does not follow the contribution rules, then the pull request will not be accepted.

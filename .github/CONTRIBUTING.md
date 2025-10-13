@@ -16,7 +16,6 @@ This repository is maintained for consumers and that these custom destinations a
 > - Details on account termination or content removal policies.
 > - Any limitations of liability and disclaimers.
 > - Information on user rights and obligations.
-> - Under no circumstances are uploaders allowed  
 > - Contact information for support or legal inquiries.
 
 > Additionally, all submissions must include a **Privacy Policy** that clearly explains:

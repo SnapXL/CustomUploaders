@@ -1,9 +1,0 @@
-{
-  "Version": "12.4.1",
-  "Name": "uploadfiles.io",
-  "RequestMethod": "POST",
-  "RequestURL": "https://up.uploadfiles.io/upload",
-  "Body": "MultipartFormData",
-  "FileFormName": "file",
-  "URL": "$json:url$"
-}

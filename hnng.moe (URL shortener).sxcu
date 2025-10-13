@@ -1,9 +1,0 @@
-{
-  "Version": "12.4.1",
-  "Name": "hnng.moe (URL shortener)",
-  "RequestMethod": "GET",
-  "RequestURL": "http://www.hnng.moe/shortapi.php",
-  "Parameters": {
-    "url": "$input$"
-  }
-}

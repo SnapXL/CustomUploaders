@@ -1,12 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "http://put.nu/py/main.py",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "RegexList": [
-    "href=\"(.+)\""
-  ],
-  "URL": "$regex:1,1$"
+  "URL": "{regex:href=\\\"(.+)\\\"|1}"
 }

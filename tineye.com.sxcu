@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://www.tineye.com/search",
   "Body": "MultipartFormData",
   "FileFormName": "image",
-  "URL": "$responseurl$"
+  "URL": "{responseurl}"
 }

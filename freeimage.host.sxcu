@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://freeimage.host/api/1/upload",
@@ -9,5 +9,5 @@
     "format": "redirect"
   },
   "FileFormName": "source",
-  "URL": "$responseurl$"
+  "URL": "{responseurl}"
 }

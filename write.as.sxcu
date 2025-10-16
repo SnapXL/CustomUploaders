@@ -1,16 +1,16 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "TextUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://write.as/api/posts",
   "Body": "MultipartFormData",
   "Arguments": {
-    "body": "$input$",
+    "body": "{input}",
     "title": "",
     "font": "",
     "lang": "",
     "rtl": ""
   },
-  "URL": "https://write.as/$json:data.id$",
-  "ThumbnailURL": "https://write.as/$json:data.id$.txt"
+  "URL": "https://write.as/{json:data.id}",
+  "ThumbnailURL": "https://write.as/{json:data.id}.txt"
 }

@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://telegra.ph/upload",
+  "RequestURL": "https://0x0.st",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "URL": "https://telegra.ph/$json:[0]['src']$"
+  "URL": "{response}"
 }

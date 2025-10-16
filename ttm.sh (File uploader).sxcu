@@ -1,9 +1,0 @@
-{
-  "Version": "12.4.1",
-  "Name": "ttm.sh (File uploader)",
-  "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestMethod": "POST",
-  "RequestURL": "https://ttm.sh",
-  "Body": "MultipartFormData",
-  "FileFormName": "file"
-}

@@ -1,12 +1,13 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "TextUploader",
   "RequestMethod": "POST",
   "RequestURL": "http://www.unserialize.com/",
   "Body": "MultipartFormData",
   "Arguments": {
-    "input": "$input$",
-    "output": "print_r"
+    "input": "{input}",
+    "output": "print_r",
+    "submit": "Unserialize"
   },
-  "URL": "$responseurl$"
+  "URL": "{responseurl}"
 }

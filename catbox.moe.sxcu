@@ -1,10 +1,11 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://catbox.moe/user/api.php",
   "Body": "MultipartFormData",
   "Arguments": {
+    "userhash": null,
     "reqtype": "fileupload"
   },
   "FileFormName": "fileToUpload"

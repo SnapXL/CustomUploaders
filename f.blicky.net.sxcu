@@ -1,5 +1,5 @@
 {
-  "Version": "13.2.1",
+  "Version": "14.0.0",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://f.blicky.net/script.php",
@@ -10,10 +10,6 @@
     "one_time_download": null
   },
   "FileFormName": "file",
-  "RegexList": [
-    "(.*)\\n(.*)\\n"
-  ],
-  "URL": "https://f.blicky.net/f.php?h=$regex:1|1$",
-  "ThumbnailURL": "https://f.blicky.net/f.php?h=$regex:1|1$&p=1",
-  "DeletionURL": "https://f.blicky.net/f.php?h=$regex:1|1$&d=$regex:1|2$"
+  "URL": "https://f.blicky.net/f.php?h={regex:([A-Za-z0-9-]+)|1}",
+  "ThumbnailURL": "https://f.blicky.net/f.php?h={regex:([A-Za-z0-9-]+)|1}&p=1"
 }

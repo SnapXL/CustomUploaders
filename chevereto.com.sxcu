@@ -1,13 +1,14 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "chevereto.com",
+  "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "http://demo.chevereto.com/api/1/upload",
+  "RequestURL": "https://demo.chevereto.com/api/1/upload",
   "Body": "MultipartFormData",
   "Arguments": {
     "key": "Your API key goes here",
     "format": "redirect"
   },
   "FileFormName": "source",
-  "URL": "$responseurl$"
+  "URL": "{responseurl}"
 }

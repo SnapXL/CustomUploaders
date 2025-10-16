@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "rebrandly.com",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
@@ -8,6 +8,6 @@
     "apikey": "YOUR_API_KEY"
   },
   "Body": "JSON",
-  "Data": "{\n  \"destination\": \"$input$\"\n}",
-  "URL": "https://$json:shortUrl$"
+  "Data": "{\n  \"destination\": \"{input}\"\n}",
+  "URL": "https://{json:shortUrl}"
 }

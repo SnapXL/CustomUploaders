@@ -1,6 +1,6 @@
 {
-  "Version": "12.4.1",
-  "DestinationType": "FileUploader, ImageUploader",
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://uguu.se/upload.php",
   "Parameters": {

@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://prntscr.com/upload.php",
+  "RequestURL": "https://prnt.sc/upload.php",
   "Body": "MultipartFormData",
   "FileFormName": "image",
-  "URL": "$json:data$"
+  "URL": "{json:data}"
 }

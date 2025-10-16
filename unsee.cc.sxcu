@@ -1,5 +1,6 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://unsee.cc/upload/",
   "Body": "MultipartFormData",
@@ -7,5 +8,5 @@
     "time": "0"
   },
   "FileFormName": "image[]",
-  "URL": "https://unsee.cc/$json:hash$"
+  "URL": "https://unsee.cc/{json:hash}"
 }

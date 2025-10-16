@@ -1,11 +1,13 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "waa.ai",
+  "DestinationType": "URLShortener",
   "RequestMethod": "POST",
-  "RequestURL": "https://api.waa.ai/shorten",
-  "Body": "MultipartFormData",
-  "Arguments": {
-    "url": "$input$"
+  "RequestURL": "https://api.waa.ai/v2/links",
+  "Headers": {
+    "Authorization": "API-Key [API TOKEN https://waa.ai/api]"
   },
-  "URL": "$json:data.url$"
+  "Body": "JSON",
+  "Data": "{\n \"url\":\"{input}\"\n}",
+  "URL": "{json:data.link}"
 }

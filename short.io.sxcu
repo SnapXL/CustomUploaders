@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "short.io",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
@@ -8,7 +8,7 @@
     "Authorization": "YOUR_API_KEY"
   },
   "Body": "JSON",
-  "Data": "{\n  \"domain\": \"YOUR_DOMAIN\",\n  \"originalURL\": \"$input$\"\n}",
-  "URL": "$json:secureShortURL$",
-  "ErrorMessage": "$json:error$"
+  "Data": "{\n  \"domain\": \"YOUR_DOMAIN\",\n  \"originalURL\": \"{input}\"\n}",
+  "URL": "{json:secureShortURL}",
+  "ErrorMessage": "{json:error}"
 }

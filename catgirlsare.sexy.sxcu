@@ -1,5 +1,6 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://catgirlsare.sexy/api/upload",
   "Body": "MultipartFormData",
@@ -7,5 +8,8 @@
     "key": "[insert user key here]"
   },
   "FileFormName": "file",
-  "URL": "$json:url$"
+  "URL": "{json:url}",
+  "ThumbnailURL": "{json:thumb_url}",
+  "DeletionURL": "{json:deletion_url}",
+  "ErrorMessage": "{json:error}"
 }

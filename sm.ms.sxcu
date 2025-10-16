@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://sm.ms/api/v2/upload",
@@ -12,6 +12,7 @@
     "format": "json"
   },
   "FileFormName": "smfile",
-  "URL": "$json:data.url$",
-  "DeletionURL": "$json:data.delete$"
+  "URL": "{json:data.url}",
+  "DeletionURL": "{json:data.delete}",
+  "ErrorMessage": "{json:message}"
 }

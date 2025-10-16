@@ -1,9 +1,0 @@
-{
-  "Version": "12.4.1",
-  "Name": "clyp.it",
-  "RequestMethod": "POST",
-  "RequestURL": "https://upload.clyp.it/upload",
-  "Body": "MultipartFormData",
-  "FileFormName": "audioFile",
-  "URL": "$json:Url$"
-}

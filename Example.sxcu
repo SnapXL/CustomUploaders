@@ -1,5 +1,5 @@
 {
-  "Version": "13.3.0",
+  "Version": "18.0.2",
   "Name": "Example",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
@@ -21,8 +21,8 @@
     "Argument3": "Value3"
   },
   "FileFormName": "file",
-  "URL": "$json:url$",
-  "ThumbnailURL": "$json:thumbnail_url$",
-  "DeletionURL": "$json:deletion_url$",
-  "ErrorMessage": "$json:error$"
+  "URL": "{json:url}",
+  "ThumbnailURL": "{json:thumbnail_url}",
+  "DeletionURL": "{json:deletion_url}",
+  "ErrorMessage": "{json:error}"
 }

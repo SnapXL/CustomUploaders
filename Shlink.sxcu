@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "Shlink",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
@@ -8,6 +8,6 @@
     "X-Api-Key": "your-shlink-api-key"
   },
   "Body": "JSON",
-  "Data": "{\"longUrl\":\"$input$\"}",
-  "URL": "$json:shortUrl$"
+  "Data": "{\"longUrl\":\"{input}\"}",
+  "URL": "{json:shortUrl}"
 }

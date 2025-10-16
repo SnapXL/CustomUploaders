@@ -1,14 +1,13 @@
 {
-  "Version": "13.0.1",
-  "Name": "imgchest.com",
+  "Version": "18.0.2",
+  "Name": "imgchest.com - folder",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://api.imgchest.com/v1/post",
+  "RequestURL": "https://api.imgchest.com/v1/post/$ID/add",
   "Headers": {
-    "Authorization": "Bearer "
+    "Authorization": "Bearer $TOKEN"
   },
   "Body": "MultipartFormData",
   "FileFormName": "images[]",
-  "URL": "https://imgchest.com/p/$json:data.id$",
-  "DeletionURL": "https://imgchest.com/p/$json:data.delete_slug$"
+  "URL": "{json:data.images[0].link}"
 }

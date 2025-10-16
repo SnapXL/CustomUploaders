@@ -1,15 +1,13 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "http://uploadpie.com",
+  "RequestURL": "https://uploadpie.com",
   "Body": "MultipartFormData",
   "Arguments": {
     "upload": "1",
-    "expire": "4"
+    "expire": "3"
   },
   "FileFormName": "uploadedfile",
-  "RegexList": [
-    "value=\"(.+?)\""
-  ],
-  "URL": "$regex:1,1$"
+  "URL": "{regex:value=\"(https?://[^\"]+)\"|1}"
 }

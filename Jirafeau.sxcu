@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "Jirafeau",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
@@ -10,9 +10,6 @@
     "time": "month"
   },
   "FileFormName": "file",
-  "RegexList": [
-    "(.+)\\n(.+)"
-  ],
-  "URL": "http://jirafeau_domain_address/f.php?h=$regex:1|1$&p=1",
-  "DeletionURL": "https://jirafeau_domain_address/f.php?h=$regex:1|1$&d=$regex:1|2$"
+  "URL": "http://jirafeau_domain_address/f.php?h={regex:1|1}&p=1",
+  "DeletionURL": "https://jirafeau_domain_address/f.php?h={regex:1|1}&d={regex:1|2}"
 }

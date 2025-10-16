@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://elixi.re/api/upload",
@@ -8,6 +8,6 @@
   },
   "Body": "MultipartFormData",
   "FileFormName": "f",
-  "URL": "$json:url$",
-  "DeletionURL": "https://elixi.re/api/delete/$json:shortname$?token=YOUR_TOKEN"
+  "URL": "{json:url}",
+  "DeletionURL": "https://elixi.re/api/delete/{json:shortname}?token=YOUR_TOKEN"
 }

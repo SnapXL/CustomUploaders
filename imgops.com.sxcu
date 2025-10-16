@@ -1,9 +1,9 @@
 {
-  "Version": "13.7.0",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "http://imgops.com/store",
   "Body": "MultipartFormData",
   "FileFormName": "photo",
-  "URL": "$responseurl$"
+  "URL": "{responseurl}"
 }

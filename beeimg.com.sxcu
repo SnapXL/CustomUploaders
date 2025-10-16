@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://beeimg.com/api/upload/file/json/",
@@ -8,7 +8,7 @@
     "apikey": "API_KEY_GOES_HERE"
   },
   "FileFormName": "image",
-  "URL": "https:$json:files.url$",
-  "ThumbnailURL": "https:$json:files.thumbnail_url$",
-  "DeletionURL": "$json:files.delete_url$"
+  "URL": "{json:files.url}",
+  "ThumbnailURL": "{json:files.thumbnail_url}",
+  "DeletionURL": "{json:files.delete_url}"
 }

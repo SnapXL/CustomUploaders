@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "Name": "Discord webhook embed (URL sharing service)",
   "DestinationType": "URLSharingService",
   "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
   "Body": "JSON",
-  "Data": "{\n  \"username\": \"ShareX\",\n  \"avatar_url\": \"https://getsharex.com/img/ShareX_Logo.png\",\n  \"tts\": false,\n  \"embeds\": [\n    {\n      \"title\": \"$input$\",\n      \"image\": {\n        \"url\": \"$input$\"\n      }\n    }\n  ]\n}"
+  "Data": "{\n  \"username\": \"ShareX\",\n  \"avatar_url\": \"https://getsharex.com/img/ShareX_Logo.png\",\n  \"tts\": false,\n  \"embeds\": [\n    {\n      \"title\": \"{input}\",\n      \"image\": {\n        \"url\": \"{input}\"\n      }\n    }\n  ]\n}"
 }

@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
-  "DestinationType": "FileUploader",
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://temp.sh/upload",
   "Body": "MultipartFormData",
-  "FileFormName": "uploadfile",
-  "URL": "$response$"
+  "FileFormName": "file",
+  "URL": "{response}"
 }

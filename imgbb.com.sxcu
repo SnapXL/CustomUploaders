@@ -1,6 +1,5 @@
 {
-  "Version": "13.1.0",
-  "Name": "imgbb.com",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://api.imgbb.com/1/upload",
@@ -9,7 +8,7 @@
   },
   "Body": "MultipartFormData",
   "FileFormName": "image",
-  "URL": "$json:data.url$",
-  "ThumbnailURL": "$json:data.thumb.url$",
-  "DeletionURL": "$json:data.delete_url$"
+  "URL": "{json:data.url}",
+  "ThumbnailURL": "{json:data.thumb.url}",
+  "DeletionURL": "{json:data.delete_url}"
 }

@@ -1,5 +1,5 @@
 {
-  "Version": "12.4.1",
+  "Version": "18.0.2",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://ptpimg.me/upload.php",
@@ -8,5 +8,5 @@
     "api_key": "YOUR API KEY HERE"
   },
   "FileFormName": "file-upload[0]",
-  "URL": "https://ptpimg.me/$json:[0].code$.$json:[0].ext$"
+  "URL": "https://ptpimg.me/{json:[0].code}.{json:[0].ext}"
 }

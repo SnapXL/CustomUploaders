@@ -1,14 +1,15 @@
 {
-  "Version": "13.4.0",
-  "Name": "gyazo.com",
+  "Version": "18.0.2",
+  "Name": "Gyazo",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://upload.gyazo.com/api/upload",
-  "Parameters": {
+  "Body": "MultipartFormData",
+  "Arguments": {
     "access_token": "<acces_token_here>"
   },
-  "Body": "MultipartFormData",
   "FileFormName": "imagedata",
-  "URL": "$json:permalink_url$",
-  "ThumbnailURL": "$json:thumb_url$"
+  "URL": "{json:url}",
+  "ThumbnailURL": "{json:thumb_url}",
+  "DeletionURL": "{json:permalink_url}"
 }

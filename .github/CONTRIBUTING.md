@@ -1,7 +1,7 @@
 # Contribution rules
 
 > [!WARNING]
-If you violate these rules, you will be banned from interacting with the repository for a year. So pay attention.
+If you violate these rules, you **will be _banned_** from interacting with the repository for a _year_. **So pay attention.**
 
 ---
 

@@ -5,5 +5,5 @@
   "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
   "Body": "JSON",
-  "Data": "{\n  \"content\": \"{input}\",\n  \"username\": \"ShareX\",\n  \"avatar_url\": \"https://getsharex.com/img/ShareX_Logo.png\",\n  \"tts\": false\n}"
+  "Data": "{\n  \"content\": \"{input}\",\n  \"username\": \"SnapX\",\n  \"avatar_url\": \"https://raw.githubusercontent.com/SnapXL/SnapX/develop/.github/Linux.png\",\n  \"tts\": false\n}"
 }

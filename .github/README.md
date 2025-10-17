@@ -12,6 +12,6 @@ The easiest way to learn is by checking other example custom uploaders to see ho
 
 ## Contribution rules
 
-Before submitting a pull request, please check the [contributing](https://github.com/SnapXL/CustomUploaders-SnapX/blob/master/.github/CONTRIBUTING.md) page.
+Before submitting a pull request, please check the [contributing](./CONTRIBUTING.md) page.
 
 If your pull request does not follow the contribution rules, then the pull request will not be accepted.

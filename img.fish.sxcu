@@ -1,0 +1,14 @@
+{
+  "Version": "18.0.2",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://img.fish/up",
+  "Headers": {
+    "accept": "application/json"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "{json:link}",
+  "DeletionURL": "{json:destroy}",
+  "ErrorMessage": "{json:error}"
+}
